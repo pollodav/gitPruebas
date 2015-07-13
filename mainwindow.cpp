@@ -18,3 +18,8 @@ void MainWindow::on_pushButton_clicked()
 {
     qDebug() << "Presionado";
 }
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    this->close();
+}
