@@ -24,3 +24,8 @@ void MainWindow::on_pushButton_2_clicked()
     qDebug() << "Cerrando";
     this->close();
 }
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    qDebug() << "Probando";
+}
